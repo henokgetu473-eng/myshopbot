@@ -1,3 +1,4 @@
+app.get('/', (req, res) => res.send('Bot is running!'));
 require('dotenv').config(); // 
 const express = require('express');
 const bot = require('./bot/index');
